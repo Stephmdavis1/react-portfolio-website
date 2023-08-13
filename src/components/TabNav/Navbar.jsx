@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import "../TabNav/NavBar.css"
 import CV from '../../assets/cv.pdf'
-import CTA from '../header/CTA'
 import { RxHamburgerMenu } from 'react-icons/rx'
 
 

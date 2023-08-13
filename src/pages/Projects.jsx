@@ -6,11 +6,6 @@ import {
 } from '../components/Projects/ProjectsData';
 
 
-// import IMG7 from '../assets/Mockups/sippers.png'
-// import IMG8 from '../assets/Mockups/inmotion2.png'
-// import IMG9 from '../assets/Mockups/smf-fitness.png'
-// import IMG10 from '../assets/Mockups/watchit.png'
-// import SippersCoffeehouse from "./SippersCoffeehouse";
 
 
 
@@ -82,12 +77,12 @@ export default function Projects() {
                     <div className="item">
                         <img className='project__img' src={d.img} alt="" />
                         {/* <h3 className='project__name'> {d.title} </h3> */}
-                        <a href={d.link} className='project__name' target='_blank'>{d.title}</a>
+                        <a href={d.link} className='project__name' target='_blank' rel="noreferrer">{d.title}</a>
                         <div className='project__button'>
-                            <a href={d.github} className='project__button1' target='_blank'>Github</a>
+                            <a href={d.github} className='project__button1' target='_blank' rel="noreferrer">Github</a>
                         </div>
                         <div className='project__button'>
-                            <a href={d.link} className='project__button2' target='_blank'>Link</a>
+                            <a href={d.link} className='project__button2' target='_blank' rel="noreferrer">Link</a>
                         </div>
                     </div>
                 ))}

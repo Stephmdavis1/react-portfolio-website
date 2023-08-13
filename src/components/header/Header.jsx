@@ -1,10 +1,7 @@
 import React from 'react'
 import './header.css'
-import CTA from './CTA'
-import ME from '../../assets/me2.png'
 import HeaderSocial from './HeaderSocials'
 import Typewriters from './typewriter/Typewriter'
-import Text_Change from './Text_Change/Text_Change'
 // import DarktoLight from './DarktoLight'
 
 

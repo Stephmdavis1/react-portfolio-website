@@ -1,10 +1,8 @@
-import logo from '../assets/Mockups/sipperscoverreal.png'
 import mockup from '../assets/Mockups/sippers2.png'
 import background2 from '../assets/sippers-display.png'
 import backgroundVideo from '../assets/Videos/beans.mp4'
 import homepageVideo from '../assets/Videos/sipper-video.mp4'
 import quotes from '../assets/quotes-lg.png'
-import aboutVideo from '../assets/Videos/aboutVideo.mp4'
 import "../Styles/SippersCoffeehouse.css";
 
 
@@ -59,7 +57,7 @@ const SippersCoffeehouse = () => {
                 </div>
             </div>
             <div className='img__container'>
-                <img className='brand__img1' />
+                <img className='brand__img1' alt='' />
             </div>
 
 

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Stephmdavis1/SMD-Portfolio.git",
+  "homepage": "https://react-portfolio-website-stephmdavis1.vercel.app",
   "name": "react-portfolio-website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

@@ -1,10 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Testimonials from './components/testimonials/Testimonials.jsx'
 import Home from './pages/Home'
 import Navbar from "./components/TabNav/Navbar.jsx"
 import Projects from './pages/Projects'
-import CV from "./assets/cv.pdf"
 import SippersCoffeehouse from './pages/SippersCoffeehouse.jsx'
 import InMotion from './pages/InMotion.jsx'
 import StephanieMarieFitness from './pages/StephanieMarieFitness.jsx'
