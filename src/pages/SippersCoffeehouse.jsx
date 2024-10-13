@@ -1,7 +1,5 @@
 import mockup from '../assets/Mockups/sippers2.png'
 import background2 from '../assets/sippers-display.png'
-import backgroundVideo from '../assets/Videos/beans.mp4'
-import homepageVideo from '../assets/Videos/sipper-video.mp4'
 import quotes from '../assets/quotes-lg.png'
 import "../Styles/SippersCoffeehouse.css";
 
@@ -38,7 +36,6 @@ const SippersCoffeehouse = () => {
 
 
             <div className="ParallaxVideo">
-                <video src={backgroundVideo} autoPlay loop muted />
             </div>
 
 
@@ -79,7 +76,7 @@ const SippersCoffeehouse = () => {
                     <h6>Build Connection with the Local Community</h6>
                     <p className='rebranding'>In order to build a brand, there has to be a connection that links a product to things that create an emotional bond with consumers. Through this, customers can learn about the brand and what the business stands for creating a bond on a deeper level.  </p>
                 </div>
-                <video src={homepageVideo} autoPlay loop muted className='homepage__video' />
+
 
                 <div className='homepage__video'>
                     <img src={mockup} alt="display" />

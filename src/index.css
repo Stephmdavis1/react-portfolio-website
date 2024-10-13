@@ -60,7 +60,6 @@ body {
     background: var(--color-white);
     color: var(--color-bg);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-pic9.png);
     /* Image by rawpixel.com</a> on Freepik */
     background-size: contain;
 }

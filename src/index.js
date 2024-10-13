@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import './fonts/Bungee_Shade/BungeeShade-Regular.ttf'
-    ; import "./index.css"
+import './fonts/Bungee_Shade/BungeeShade-Regular.ttf'; 
+import "./index.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
